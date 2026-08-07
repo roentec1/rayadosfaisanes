@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayados Faisanes | Escuela de Fútbol en Guadalupe, N.L. — Inscríbete Sin Costo</title>
+    <meta name="description" content="Escuela de fútbol Rayados Faisanes. Inscríbete sin costo. Niñas y niños categorías 2010-2022. Clase de prueba gratis. Canchas Offside, Guadalupe, N.L.">
+    <meta name="keywords" content="escuela de fútbol, Guadalupe NL, fútbol infantil, Rayados Faisanes, categorías 2010-2022, fútbol femenil, clase de prueba">
+    <meta name="author" content="Rayados Faisanes">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://rayadosfaisanes.com">
+
+    <meta property="og:title" content="Rayados Faisanes | Escuela de Fútbol Premium">
+    <meta property="og:description" content="Formamos campeones. Inscríbete sin costo — Niñas y Niños categorías 2010-2022. Clase de prueba gratis.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_MX">
+    <meta property="og:image" content="https://z-cdn-media.chatglm.cn/files/02918f52-fc33-4af6-9de9-092685a5447b.png?auth_key=1886068258-d6ffa0a7128b4f9f98aa0332bd56c5cb-0-958c2e67bb687ad8df9d6b6699e36578">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'] },
+                    colors: {
+                        brand: {
+                            50: '#eef4ff', 100: '#dbeafe', 200: '#bfdbfe',
+                            300: '#93c5fd', 400: '#60a5fa', 500: '#3b82f6',
+                            600: '#2563eb', 700: '#1d4ed8', 800: '#1e3a5f',
+                            900: '#0f2744', 950: '#091a2e'
+                        },
+                        gold: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706' }
+                    }
+                }
+            }
+        }
+    </script>
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+    <style>
+        * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #64748b; }
+
+        .blob {
+            position: absolute;
+            border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            filter: blur(80px);
+            pointer-events: none;
+            will-change: transform;
+        }
+        .blob-1 { animation: blobFloat1 25s ease-in-out infinite; }
+        .blob-2 { animation: blobFloat2 20s ease-in-out infinite; }
+        .blob-3 { animation: blobFloat3 22s ease-in-out infinite; }
+
+        @keyframes blobFloat1 {
+            0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            33% { transform: translate(30px, -50px) scale(1.05) rotate(5deg); }
+            66% { transform: translate(-20px, 20px) scale(0.95) rotate(-3deg); }
+        }
+        @keyframes blobFloat2 {
+            0%, 100% { transform: translate(0, 0) scale(1) rotate(0deg); }
+            33% { transform: translate(-40px, 30px) scale(1.08) rotate(-5deg); }
+            66% { transform: translate(25px, -35px) scale(0.92) rotate(4deg); }
+        }
+        @keyframes blobFloat3 {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(20px, 40px) scale(1.1); }
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1), transform 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .reveal-delay-1 { transition-delay: 0.1s; }
+        .reveal-delay-2 { transition-delay: 0.2s; }
+        .reveal-delay-3 { transition-delay: 0.3s; }
+        .reveal-delay-4 { transition-delay: 0.4s; }
+
+        .clip-organic {
+            border-radius: 60% 40% 50% 50% / 50% 60% 40% 50%;
+        }
+        .clip-organic-2 {
+            border-radius: 40% 60% 45% 55% / 55% 40% 60% 45%;
+        }
+        .clip-organic-3 {
+            border-radius: 50% 50% 40% 60% / 45% 55% 50% 50%;
+        }
+
+        .card-hover {
+            transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.4s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 25px 60px -12px rgba(30, 58, 95, 0.15);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-primary::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .btn-primary:hover::before { opacity: 1; }
+        .btn-primary span { position: relative; z-index: 1; }
+
+        .btn-gold {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-gold::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .btn-gold:hover::before { opacity: 1; }
+        .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 10px 30px -5px rgba(245, 158, 11, 0.4); }
+        .btn-gold span { position: relative; z-index: 1; }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #2563eb 0%, #60a5fa 50%, #2563eb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .line-decoration {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #2563eb, #60a5fa);
+            border-radius: 2px;
+        }
+
+        .social-icon {
+            transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .social-icon:hover {
+            transform: translateY(-4px) scale(1.1);
+        }
+
+        .nav-glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .nav-glass.scrolled {
+            box-shadow: 0 1px 20px rgba(15, 39, 68, 0.08);
+        }
+
+        .whatsapp-float {
+            animation: whatsappPulse 2s ease-in-out infinite;
+            box-shadow: 0 6px 24px rgba(37, 211, 102, 0.4);
+        }
+        @keyframes whatsappPulse {
+            0%, 100% { box-shadow: 0 6px 24px rgba(37, 211, 102, 0.4); }
+            50% { box-shadow: 0 6px 36px rgba(37, 211, 102, 0.6), 0 0 0 12px rgba(37, 211, 102, 0.1); }
+        }
+
+        .counter { font-variant-numeric: tabular-nums; }
+
+        .mobile-menu {
+            transform: translateX(100%);
+            transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .mobile-menu.open { transform: translateX(0); }
+
+        .hero-image-wrapper {
+            position: relative;
+        }
+        .hero-image-wrapper::after {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 60% 40% 50% 50% / 50% 60% 40% 50%;
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.2), rgba(96, 165, 250, 0.1));
+            z-index: -1;
+            animation: blobFloat2 15s ease-in-out infinite;
+        }
+
+        @media (max-width: 768px) {
+            .clip-organic, .clip-organic-2, .clip-organic-3 {
+                border-radius: 30% 30% 30% 30% / 30% 30% 30% 30%;
+            }
+        }
+    </style>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SportsOrganization",
+        "name": "Rayados Faisanes",
+        "description": "Escuela de fútbol para niñas y niños en Guadalupe, Nuevo León",
+        "url": "https://rayadosfaisanes.com",
+        "telephone": "+528120255823",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gral. Plutarco Elías Calles 2350, Los Lerma",
+            "addressLocality": "Guadalupe",
+            "addressRegion": "N.L.",
+            "postalCode": "67169",
+            "addressCountry": "MX"
+        },
+        "founder": { "@type": "Person", "name": "Romario Guerrero" }
+    }
+    </script>
+</head>
+<body class="font-sans text-slate-800 bg-white overflow-x-hidden">
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav id="navbar" class="nav-glass fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16 md:h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3 group">
+                    <img src="https://z-cdn-media.chatglm.cn/files/02918f52-fc33-4af6-9de9-092685a5447b.png?auth_key=1886068258-d6ffa0a7128b4f9f98aa0332bd56c5cb-0-958c2e67bb687ad8df9d6b6699e36578" alt="Rayados Faisanes - Escudo" class="h-10 md:h-12 w-auto transition-transform duration-300 group-hover:scale-105">
+                    <div class="hidden sm:block">
+                        <p class="text-sm font-bold text-brand-900 leading-tight tracking-tight">RAYADOS</p>
+                        <p class="text-xs font-semibold text-brand-600 tracking-widest uppercase">Faisanes</p>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav -->
+                <div class="hidden lg:flex items-center gap-8">
+                    <a href="#nosotros" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors duration-200">Nosotros</a>
+                    <a href="#categorias" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors duration-200">Categorías</a>
+                    <a href="#programa" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors duration-200">Programa</a>
+                    <a href="#femenil" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors duration-200">Femenil</a>
+                    <a href="#contacto" class="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors duration-200">Contacto</a>
+                </div>
+
+                <!-- CTA + Social -->
+                <div class="hidden lg:flex items-center gap-4">
+                    <div class="flex items-center gap-2">
+                        <a href="#" class="social-icon w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-blue-600 hover:text-white" aria-label="Facebook">
+                            <span class="iconify" data-icon="mdi:facebook" data-width="16"></span>
+                        </a>
+                        <a href="#" class="social-icon w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-pink-500 hover:text-white" aria-label="Instagram">
+                            <span class="iconify" data-icon="mdi:instagram" data-width="16"></span>
+                        </a>
+                        <a href="#" class="social-icon w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-black hover:text-white" aria-label="TikTok">
+                            <span class="iconify" data-icon="ic:baseline-tiktok" data-width="16"></span>
+                        </a>
+                        <a href="https://wa.me/528120255823?text=Hola%2C%20quiero%20información%20sobre%20las%20inscripciones" target="_blank" class="social-icon w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-green-500 hover:text-white" aria-label="WhatsApp">
+                            <span class="iconify" data-icon="mdi:whatsapp" data-width="16"></span>
+                        </a>
+                    </div>
+                    <a href="https://wa.me/528120255823?text=Hola%2C%20quiero%20inscribir%20a%20mi%20hijo(a)%20en%20Rayados%20Faisanes" target="_blank" class="btn-primary text-white text-sm font-semibold px-5 py-2.5 rounded-full">
+                        <span>Inscríbete Gratis</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="menuBtn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-xl hover:bg-slate-100 transition-colors" aria-label="Abrir menú">
+                    <span class="iconify text-slate-700" data-icon="mdi:menu" data-width="24" id="menuIcon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="mobile-menu fixed inset-y-0 right-0 w-80 max-w-[85vw] bg-white z-[60] shadow-2xl">
+        <div class="p-6">
+            <div class="flex items-center justify-between mb-8">
+                <span class="text-lg font-bold text-brand-900">Menú</span>
+                <button id="closeMenuBtn" class="w-10 h-10 flex items-center justify-center rounded-xl hover:bg-slate-100 transition-colors" aria-label="Cerrar menú">
+                    <span class="iconify text-slate-700" data-icon="mdi:close" data-width="24"></span>
+                </button>
+            </div>
+            <div class="flex flex-col gap-1 mb-8">
+                <a href="#nosotros" class="mobile-link text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-brand-50 px-4 py-3 rounded-xl transition-all duration-200">Nosotros</a>
+                <a href="#categorias" class="mobile-link text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-brand-50 px-4 py-3 rounded-xl transition-all duration-200">Categorías</a>
+                <a href="#programa" class="mobile-link text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-brand-50 px-4 py-3 rounded-xl transition-all duration-200">Programa</a>
+                <a href="#femenil" class="mobile-link text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-brand-50 px-4 py-3 rounded-xl transition-all duration-200">Femenil</a>
+                <a href="#contacto" class="mobile-link text-base font-medium text-slate-700 hover:text-brand-600 hover:bg-brand-50 px-4 py-3 rounded-xl transition-all duration-200">Contacto</a>
+            </div>
+            <div class="border-t border-slate-100 pt-6">
+                <p class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-4">Síguenos</p>
+                <div class="flex items-center gap-3 mb-6">
+                    <a href="#" class="social-icon w-11 h-11 flex items-center justify-center rounded-xl bg-blue-50 text-blue-600 hover:bg-blue-600 hover:text-white" aria-label="Facebook">
+                        <span class="iconify" data-icon="mdi:facebook" data-width="22"></span>
+                    </a>
+                    <a href="#" class="social-icon w-11 h-11 flex items-center justify-center rounded-xl bg-pink-50 text-pink-500 hover:bg-pink-500 hover:text-white" aria-label="Instagram">
+                        <span class="iconify" data-icon="mdi:instagram" data-width="22"></span>
+                    </a>
+                    <a href="#" class="social-icon w-11 h-11 flex items-center justify-center rounded-xl bg-slate-100 text-slate-700 hover:bg-black hover:text-white" aria-label="TikTok">
+                        <span class="iconify" data-icon="ic:baseline-tiktok" data-width="22"></span>
+                    </a>
+                    <a href="https://wa.me/528120255823" target="_blank" class="social-icon w-11 h-11 flex items-center justify-center rounded-xl bg-green-50 text-green-600 hover:bg-green-500 hover:text-white" aria-label="WhatsApp">
+                        <span class="iconify" data-icon="mdi:whatsapp" data-width="22"></span>
+                    </a>
+                </div>
+                <a href="https://wa.me/528120255823?text=Hola%2C%20quiero%20inscribir%20a%20mi%20hijo(a)" target="_blank" class="btn-gold block text-center text-white font-semibold px-6 py-3.5 rounded-full text-sm">
+                    <span>Inscríbete Sin Costo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="menuOverlay" class="fixed inset-0 bg-black/20 backdrop-blur-sm z-[55] hidden opacity-0 transition-opacity duration-300"></div>
+
+    <!-- ========== HERO ========== -->
+    <section class="relative min-h-screen flex items-center pt-20 pb-12 md:pt-0 md:pb-0 overflow-hidden">
+        <!-- Blobs -->
+        <div class="blob blob-1 w-[500px] h-[500px] bg-blue-400/15 top-10 -left-40" style="position:absolute;"></div>
+        <div class="blob blob-2 w-[400px] h-[400px] bg-blue-300/10 bottom-20 right-0" style="position:absolute;"></div>
+        <div class="blob blob-3 w-[300px] h-[300px] bg-amber-300/8 top-1/2 left-1/3" style="position:absolute;"></div>
+
+        <div class="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 w-full">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
+                <!-- Text -->
+                <div class="order-2 lg:order-1 text-center lg:text-left">
+                    <div class="reveal">
+                        <span class="inline-flex items-center gap-2 bg-brand-50 text-brand-600 text-xs font-semibold px-4 py-2 rounded-full mb-6 uppercase tracking-wider">
+                            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                            Inscripciones Abiertas
+                        </span>
+                    </div>
+                    <h1 class="reveal reveal-delay-1 text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-brand-900 leading-[1.05] tracking-tight mb-6">
+                        Donde nacen los
+                        <span class="gradient-text"> campeones</span>
+                    </h1>
+                    <p class="reveal reveal-delay-2 text-lg md:text-xl text-slate-500 font-light leading-relaxed max-w-xl mx-auto lg:mx-0 mb-8">
+                        Escuela de fútbol para niñas y niños. Formamos atletas con disciplina, técnica y pasión. <strong class="text-slate-700 font-medium">Inscríbete sin costo.</strong>
+                    </p>
+                    <div class="reveal reveal-delay-3 flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start mb-10">
+                        <a href="" target="_blank" class="btn-gold text-white font-bold px-8 py-4 rounded-full text-base w-full sm:w-auto text-center shadow-lg">
+                            <span class="flex items-center justify-center gap-2">
+                                <span class="iconify" data-icon="mdi:whatsapp" data-width="20"></span>
+                                Inscríbete Sin Costo
+                            </span>
+                        </a>
+                        <a href="#programa" class="btn-primary text-white font-semibold px-8 py-4 rounded-full text-base w-full sm:w-auto text-center">
+                            <span class="flex items-center justify-center gap-2">
+                                Clase de Prueba Gratis
+                                <span class="iconify" data-icon="mdi:arrow-right" data-width="18"></span>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="reveal reveal-delay-4 flex items-center gap-6 justify-center lg:justify-start text-sm text-slate-400">
+                        <span class="flex items-center gap-1.5">
+                            <span class="iconify text-green-500" data-icon="mdi:check-circle" data-width="18"></span>
+                            Sin costo
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <span class="iconify text-green-500" data-icon="mdi:check-circle" data-width="18"></span>
+                            Clase de prueba
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <span class="iconify text-green-500" data-icon="mdi:check-circle" data-width="18"></span>
+                            Niñas y niños
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="order-1 lg:order-2 flex justify-center reveal">
+                    <div class="hero-image-wrapper">
+                        <img src="img/hero.jpg" alt="Niños entrenando fútbol en Rayados Faisanes" class="clip-organic w-82 sm:w-90 md:w-96 object-cover shadow-2xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2 text-slate-300 animate-bounce">
+            <span class="text-xs font-medium tracking-widest uppercase">Scroll</span>
+            <span class="iconify" data-icon="mdi:chevron-down" data-width="20"></span>
+        </div>
+    </section>
+
+    <!-- ========== STATS BAR ========== -->
+    <section class="relative bg-brand-900 py-8 md:py-10 overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-950 via-brand-900 to-brand-800"></div>
+        <div class="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
+                <div class="reveal">
+                    <p class="text-3xl md:text-4xl font-extrabold text-white counter" data-target="13">0</p>
+                    <p class="text-sm text-blue-300 mt-1 font-medium">Categorías</p>
+                </div>
+                <div class="reveal reveal-delay-1">
+                    <p class="text-3xl md:text-4xl font-extrabold text-white counter" data-target="200">0</p>
+                    <p class="text-sm text-blue-300 mt-1 font-medium">Alumnos Activos</p>
+                </div>
+                <div class="reveal reveal-delay-2">
+                    <p class="text-3xl md:text-4xl font-extrabold text-white counter" data-target="4">0</p>
+                    <p class="text-sm text-blue-300 mt-1 font-medium">Días de Entrenamiento</p>
+                </div>
+                <div class="reveal reveal-delay-3">
+                    <p class="text-3xl md:text-4xl font-extrabold text-white counter" data-target="100">0</p>
+                    <p class="text-sm text-blue-300 mt-1 font-medium">% Compromiso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== NOSOTROS ========== -->
+    <section id="nosotros" class="py-20 md:py-28 bg-white relative overflow-hidden">
+        <div class="blob blob-2 w-[350px] h-[350px] bg-blue-100/40 -top-20 -right-32" style="position:absolute;"></div>
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="reveal text-xs font-semibold text-brand-500 uppercase tracking-widest">¿Por qué elegirnos?</span>
+                <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl lg:text-5xl font-extrabold text-brand-900 tracking-tight mt-3 mb-5">
+                    Más que fútbol, <span class="gradient-text">formamos personas</span>
+                </h2>
+                <div class="reveal reveal-delay-2 line-decoration mx-auto mb-6"></div>
+                <p class="reveal reveal-delay-2 text-slate-500 text-lg font-light leading-relaxed">
+                    En Rayados Faisanes creemos en el desarrollo integral de cada niño y niña a través del deporte.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="reveal card-hover bg-white border border-slate-100 rounded-3xl p-7 text-center group">
+                    <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-brand-600 transition-colors duration-300">
+                        <span class="iconify text-brand-500 group-hover:text-white transition-colors duration-300" data-icon="mdi:soccer" data-width="30"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">Técnica Avanzada</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed">Entrenamiento enfocado en dominio de balón, pases y definición.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="reveal reveal-delay-1 card-hover bg-white border border-slate-100 rounded-3xl p-7 text-center group">
+                    <div class="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-green-500 transition-colors duration-300">
+                        <span class="iconify text-green-500 group-hover:text-white transition-colors duration-300" data-icon="mdi:heart-pulse" data-width="30"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">Desarrollo Físico</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed">Condicionamiento, resistencia y velocidad adaptados a cada edad.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="reveal reveal-delay-2 card-hover bg-white border border-slate-100 rounded-3xl p-7 text-center group">
+                    <div class="w-16 h-16 bg-amber-50 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-amber-500 transition-colors duration-300">
+                        <span class="iconify text-amber-500 group-hover:text-white transition-colors duration-300" data-icon="mdi:shield-account" data-width="30"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">Disciplina</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed">Valores de respeto, trabajo en equipo y responsabilidad.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="reveal reveal-delay-3 card-hover bg-white border border-slate-100 rounded-3xl p-7 text-center group">
+                    <div class="w-16 h-16 bg-purple-50 rounded-2xl flex items-center justify-center mx-auto mb-5 group-hover:bg-purple-500 transition-colors duration-300">
+                        <span class="iconify text-purple-500 group-hover:text-white transition-colors duration-300" data-icon="mdi:trophy" data-width="30"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-2">Competencia</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed">Participación en torneos locales y estatales durante el año.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CATEGORÍAS ========== -->
+    <section id="categorias" class="py-20 md:py-28 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <!-- Image side -->
+                <div class="reveal flex justify-center">
+                    <div class="relative">
+                        <img src="img/categoria.jpg" alt="Equipos por categorías Rayados Faisanes" class="clip-organic-2 w-72 sm:w-80 md:w-[590px] object-cover shadow-xl">
+                        <!-- Floating badge -->
+                        <div class="absolute -bottom-4 -right-4 md:bottom-4 md:-right-8 bg-white rounded-2xl shadow-xl p-4 flex items-center gap-3">
+                            <!--<div class="w-12 h-12 bg-gold-500 rounded-xl flex items-center justify-center">
+                                <span class="iconify text-white" data-icon="mdi:account-group" data-width="24"></span>
+                            </div>
+                            <div>
+                                <p class="text-xl font-extrabold text-brand-900">2010–2022</p>
+                                <p class="text-xs text-slate-400 font-medium">Categorías disponibles</p>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text side -->
+                <div>
+                    <span class="reveal text-xs font-semibold text-brand-500 uppercase tracking-widest">Categorías</span>
+                    <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl font-extrabold text-brand-900 tracking-tight mt-3 mb-5">
+                        Un lugar para cada <span class="gradient-text">edad y nivel</span>
+                    </h2>
+                    <div class="reveal reveal-delay-1 line-decoration mb-6"></div>
+                    <p class="reveal reveal-delay-2 text-slate-500 text-base leading-relaxed mb-8">
+                        Aceptamos niñas y niños desde los 3 hasta los 14 años. Cada categoría cuenta con entrenadores certificados y un programa adaptado a su etapa de desarrollo.
+                    </p>
+
+                    <div class="reveal reveal-delay-3 grid grid-cols-2 gap-3 mb-8">
+                        <div class="bg-white rounded-2xl border border-slate-100 p-4 text-center hover:border-brand-200 hover:shadow-md transition-all duration-300">
+                            <p class="text-sm font-bold text-brand-900">2010–2013</p>
+                            <p class="text-xs text-slate-400 mt-0.5">11–14 años</p>
+                        </div>
+                        <div class="bg-white rounded-2xl border border-slate-100 p-4 text-center hover:border-brand-200 hover:shadow-md transition-all duration-300">
+                            <p class="text-sm font-bold text-brand-900">2014–2016</p>
+                            <p class="text-xs text-slate-400 mt-0.5">8–10 años</p>
+                        </div>
+                        <div class="bg-white rounded-2xl border border-slate-100 p-4 text-center hover:border-brand-200 hover:shadow-md transition-all duration-300">
+                            <p class="text-sm font-bold text-brand-900">2017–2019</p>
+                            <p class="text-xs text-slate-400 mt-0.5">5–7 años</p>
+                        </div>
+                        <div class="bg-white rounded-2xl border border-slate-100 p-4 text-center hover:border-brand-200 hover:shadow-md transition-all duration-300">
+                            <p class="text-sm font-bold text-brand-900">2020–2022</p>
+                            <p class="text-xs text-slate-400 mt-0.5">3–4 años</p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/528120255823?text=Hola%2C%20quiero%20saber%20en%20qué%20categoría%20puede%20entrar%20mi%20hijo(a)" target="_blank" class="reveal reveal-delay-4 btn-primary inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-full text-sm">
+                        <span>Consultar Categoría</span>
+                        <span class="iconify" data-icon="mdi:arrow-right" data-width="18"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROGRAMA ========== -->
+    <section id="programa" class="py-20 md:py-28 bg-white relative overflow-hidden">
+        <div class="blob blob-1 w-[400px] h-[400px] bg-blue-50/60 top-0 left-1/2" style="position:absolute;"></div>
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="reveal text-xs font-semibold text-brand-500 uppercase tracking-widest">Programa de Entrenamiento</span>
+                <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl lg:text-5xl font-extrabold text-brand-900 tracking-tight mt-3 mb-5">
+                    ¿Qué aprenderá tu <span class="gradient-text">hijo(a)</span>?
+                </h2>
+                <div class="reveal reveal-delay-2 line-decoration mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Program Card 1 -->
+                <div class="reveal card-hover bg-gradient-to-br from-white to-blue-50/50 border border-slate-100 rounded-3xl p-8 group">
+                    <div class="w-14 h-14 bg-brand-600 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="iconify text-white" data-icon="mdi:shoe-cleat" data-width="26"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-3">Control de Balón</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">Dominio con ambos pies, recepción, conducción y cambios de dirección.</p>
+                    <div class="flex items-center gap-2">
+                        <div class="flex-1 h-1.5 bg-blue-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-brand-500 rounded-full" style="width: 90%"></div>
+                        </div>
+                        <span class="text-xs font-semibold text-brand-600">Básico</span>
+                    </div>
+                </div>
+                <!-- Program Card 2 -->
+                <div class="reveal reveal-delay-1 card-hover bg-gradient-to-br from-white to-green-50/50 border border-slate-100 rounded-3xl p-8 group">
+                    <div class="w-14 h-14 bg-green-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="iconify text-white" data-icon="mdi:swap-horizontal" data-width="26"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-3">Pases y Asociación</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">Pases cortos, largos, paredes y visión de juego en equipo.</p>
+                    <div class="flex items-center gap-2">
+                        <div class="flex-1 h-1.5 bg-green-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-green-500 rounded-full" style="width: 85%"></div>
+                        </div>
+                        <span class="text-xs font-semibold text-green-600">Básico</span>
+                    </div>
+                </div>
+                <!-- Program Card 3 -->
+                <div class="reveal reveal-delay-2 card-hover bg-gradient-to-br from-white to-amber-50/50 border border-slate-100 rounded-3xl p-8 group">
+                    <div class="w-14 h-14 bg-amber-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="iconify text-white" data-icon="mdi:target" data-width="26"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-3">Definición y Tiro</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">Remate con interior, empeine, cabeza y definición bajo presión.</p>
+                    <div class="flex items-center gap-2">
+                        <div class="flex-1 h-1.5 bg-amber-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-amber-500 rounded-full" style="width: 75%"></div>
+                        </div>
+                        <span class="text-xs font-semibold text-amber-600">Intermedio</span>
+                    </div>
+                </div>
+                <!-- Program Card 4 -->
+                <div class="reveal card-hover bg-gradient-to-br from-white to-purple-50/50 border border-slate-100 rounded-3xl p-8 group">
+                    <div class="w-14 h-14 bg-purple-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="iconify text-white" data-icon="mdi:run-fast" data-width="26"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-3">Velocidad y Agilidad</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">Sprints, cambios de ritmo, coordinación y ejercicios de agilidad.</p>
+                    <div class="flex items-center gap-2">
+                        <div class="flex-1 h-1.5 bg-purple-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-purple-500 rounded-full" style="width: 95%"></div>
+                        </div>
+                        <span class="text-xs font-semibold text-purple-600">Básico</span>
+                    </div>
+                </div>
+                <!-- Program Card 5 -->
+                <div class="reveal reveal-delay-1 card-hover bg-gradient-to-br from-white to-rose-50/50 border border-slate-100 rounded-3xl p-8 group">
+                    <div class="w-14 h-14 bg-rose-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="iconify text-white" data-icon="mdi:fire" data-width="26"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-3">Resistencia</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">Capacidad aeróbica y anaeróbica adaptada a la edad del jugador.</p>
+                    <div class="flex items-center gap-2">
+                        <div class="flex-1 h-1.5 bg-rose-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-rose-500 rounded-full" style="width: 80%"></div>
+                        </div>
+                        <span class="text-xs font-semibold text-rose-600">Intermedio</span>
+                    </div>
+                </div>
+                <!-- Program Card 6 -->
+                <div class="reveal reveal-delay-2 card-hover bg-gradient-to-br from-white to-cyan-50/50 border border-slate-100 rounded-3xl p-8 group">
+                    <div class="w-14 h-14 bg-cyan-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <span class="iconify text-white" data-icon="mdi:strategy" data-width="26"></span>
+                    </div>
+                    <h3 class="text-lg font-bold text-brand-900 mb-3">Táctica Colectiva</h3>
+                    <p class="text-sm text-slate-500 leading-relaxed mb-4">Posicionamiento, pressing, transiciones y sistemas de juego.</p>
+                    <div class="flex items-center gap-2">
+                        <div class="flex-1 h-1.5 bg-cyan-100 rounded-full overflow-hidden">
+                            <div class="h-full bg-cyan-500 rounded-full" style="width: 60%"></div>
+                        </div>
+                        <span class="text-xs font-semibold text-cyan-600">Avanzado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEMENIL ========== -->
+    <section id="femenil" class="py-20 md:py-28 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-brand-900 via-brand-800 to-brand-950"></div>
+        <div class="absolute inset-0 opacity-10" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'0.15\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+
+        <div class="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <!-- Text -->
+                <div>
+                    <span class="reveal inline-flex items-center gap-2 bg-white/10 text-blue-300 text-xs font-semibold px-4 py-2 rounded-full mb-6 uppercase tracking-wider backdrop-blur-sm">
+                        <span class="iconify" data-icon="mdi:star-four-points" data-width="14"></span>
+                        Equipo Femenil
+                    </span>
+                    <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-5">
+                        Unete al <span class="text-amber-400">futbol femenil</span>
+                    </h2>
+                    <p class="reveal reveal-delay-2 text-blue-200 text-base leading-relaxed mb-8 max-w-lg">
+                        Niñas y jóvenes tienen su espacio en Rayados Faisanes. Entrenamiento profesional con el mismo nivel de exigencia y dedicación que el equipo masculino.
+                    </p>
+
+                    <div class="reveal reveal-delay-3 space-y-4 mb-10">
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="iconify text-amber-400" data-icon="mdi:check-bold" data-width="16"></span>
+                            </div>
+                            <span class="text-blue-100 text-sm font-medium">Control y manejo del balón</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="iconify text-amber-400" data-icon="mdi:check-bold" data-width="16"></span>
+                            </div>
+                            <span class="text-blue-100 text-sm font-medium">Pases precisos y asociación</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="iconify text-amber-400" data-icon="mdi:check-bold" data-width="16"></span>
+                            </div>
+                            <span class="text-blue-100 text-sm font-medium">Resistencia, velocidad y condición física</span>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 bg-amber-500/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <span class="iconify text-amber-400" data-icon="mdi:check-bold" data-width="16"></span>
+                            </div>
+                            <span class="text-blue-100 text-sm font-medium">Torneos y competencia real</span>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/528120255823?text=Hola%2C%20me%20interesa%20el%20equipo%20femenil%20de%20Rayados%20Faisanes" target="_blank" class="reveal reveal-delay-4 btn-gold inline-flex items-center gap-2 text-white font-bold px-8 py-4 rounded-full text-sm">
+                        <span>Solicitar Información Femenil</span>
+                        <span class="iconify" data-icon="mdi:arrow-right" data-width="18"></span>
+                    </a>
+                </div>
+
+                <!-- Image -->
+                <div class="reveal flex justify-center">
+                    <div class="relative">
+                        <img src="img/femenil.jpg" alt="Equipo femenil Rayados Faisanes" class="clip-organic-3 w-72 sm:w-80 md:w-[650px] object-cover shadow-2xl">
+                        <!--<div class="absolute -top-3 -left-3 bg-amber-500 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg">
+                            ¡NUEVO!
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIOS ========== -->
+    <section class="py-20 md:py-28 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="reveal text-xs font-semibold text-brand-500 uppercase tracking-widest">Testimonios</span>
+                <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl font-extrabold text-brand-900 tracking-tight mt-3 mb-5">
+                    Lo que dicen <span class="gradient-text">los papás</span>
+                </h2>
+                <div class="reveal reveal-delay-2 line-decoration mx-auto"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Testimonial 1 -->
+                <div class="reveal card-hover bg-white border border-slate-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed mb-6">"Mi hijo lleva 8 meses y el cambio ha sido increíble. No solo mejoró su fútbol, sino su disciplina y confianza. Los entrenadores son muy profesionales."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-brand-100 rounded-full flex items-center justify-center">
+                            <span class="text-sm font-bold text-brand-600">LM</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-brand-900">Laura Martínez</p>
+                            <p class="text-xs text-slate-400">Mamá de Santiago, categoría 2015</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="reveal reveal-delay-1 card-hover bg-white border border-slate-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed mb-6">"Inscribí a mi hija en el equipo femenil y está súper feliz. El ambiente es seguro, sano y realmente la motivan a mejorar cada día. 100% recomendado."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center">
+                            <span class="text-sm font-bold text-pink-600">RG</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-brand-900">Roberto García</p>
+                            <p class="text-xs text-slate-400">Papá de Valeria, femenil 2013</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="reveal reveal-delay-2 card-hover bg-white border border-slate-100 rounded-3xl p-8">
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star" data-width="18"></span>
+                        <span class="iconify text-amber-400" data-icon="mdi:star-half-full" data-width="18"></span>
+                    </div>
+                    <p class="text-sm text-slate-600 leading-relaxed mb-6">"Lo mejor es que la inscripción no tiene costo. Mi niño de 4 años ya sabe patear con ambos pies y hacer pases. El profesor Romario es excelente con los niños."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
+                            <span class="text-sm font-bold text-green-600">CH</span>
+                        </div>
+                        <div>
+                            <p class="text-sm font-semibold text-brand-900">Carmen Hernández</p>
+                            <p class="text-xs text-slate-400">Mamá de Mateo, categoría 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DIRECTOR ========== -->
+    <section class="py-20 md:py-28 bg-white relative overflow-hidden">
+        <div class="blob blob-3 w-[300px] h-[300px] bg-blue-50/50 bottom-0 right-0" style="position:absolute;"></div>
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative">
+            <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <!-- Image -->
+                <div class="reveal flex justify-center order-2 lg:order-1">
+                    <div class="relative">
+                        <img src="img/director.png" alt="Romario Guerrero - Director de Rayados Faisanes" class="clip-organic w-64 sm:w-72 md:w-80 object-cover shadow-xl">
+                        <div class="absolute -bottom-5 -left-5 bg-white rounded-2xl shadow-lg border border-slate-100 p-4">
+                            <div class="flex items-center gap-2">
+                                <span class="iconify text-brand-500" data-icon="mdi:certificate" data-width="24"></span>
+                                <div>
+                                    <p class="text-xs font-bold text-brand-900">Director Certificado</p>
+                                    <p class="text-[10px] text-slate-400">Fútbol formativo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text -->
+                <div class="order-1 lg:order-2">
+                    <span class="reveal text-xs font-semibold text-brand-500 uppercase tracking-widest">Nuestro Director</span>
+                    <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl font-extrabold text-brand-900 tracking-tight mt-3 mb-3">
+                        Romario <span class="gradient-text">Guerrero</span>
+                    </h2>
+                    <div class="reveal reveal-delay-1 line-decoration mb-6"></div>
+                    <p class="reveal reveal-delay-2 text-slate-500 text-base leading-relaxed mb-6">
+                        Con años de experiencia en el fútbol formativo, Romario Guerrero fundó Rayados Faisanes con una misión clara: ofrecer a los niños y niñas de Guadalupe un espacio seguro, profesional y lleno de pasión para desarrollar su talento.
+                    </p>
+                    <p class="reveal reveal-delay-3 text-slate-500 text-base leading-relaxed mb-8">
+                        Su enfoque combina técnica, disciplina y diversión, asegurando que cada niño no solo sea un mejor futbolista, sino también una mejor persona.
+                    </p>
+
+                    <div class="reveal reveal-delay-4 grid grid-cols-3 gap-4">
+                        <div class="text-center">
+                            <p class="text-2xl font-extrabold text-brand-900">+5</p>
+                            <p class="text-xs text-slate-400 mt-1">Años de experiencia</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-2xl font-extrabold text-brand-900">200+</p>
+                            <p class="text-xs text-slate-400 mt-1">Alumnos formados</p>
+                        </div>
+                        <div class="text-center">
+                            <p class="text-2xl font-extrabold text-brand-900">100%</p>
+                            <p class="text-xs text-slate-400 mt-1">Dedicación</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== HORARIO & UBICACIÓN ========== -->
+    <section id="contacto" class="py-20 md:py-28 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="reveal text-xs font-semibold text-brand-500 uppercase tracking-widest">Horario y Ubicación</span>
+                <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl font-extrabold text-brand-900 tracking-tight mt-3 mb-5">
+                    Ven a <span class="gradient-text">conocernos</span>
+                </h2>
+                <div class="reveal reveal-delay-2 line-decoration mx-auto"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-8">
+                <!-- Schedule Card -->
+                <div class="reveal card-hover bg-white border border-slate-100 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-12 h-12 bg-brand-50 rounded-2xl flex items-center justify-center">
+                            <span class="iconify text-brand-500" data-icon="mdi:calendar-clock" data-width="24"></span>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-900">Horario de Entrenamientos</h3>
+                    </div>
+
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center justify-between p-4 bg-slate-50 rounded-2xl">
+                            <div class="flex items-center gap-3">
+                                <span class="iconify text-brand-400" data-icon="mdi:alpha-l-box" data-width="28"></span>
+                                <span class="font-semibold text-slate-700 text-sm">Lunes</span>
+                            </div>
+                            <span class="text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">5:30 – 8:00 PM</span>
+                        </div>
+                        <div class="flex items-center justify-between p-4 bg-slate-50 rounded-2xl">
+                            <div class="flex items-center gap-3">
+                                <span class="iconify text-brand-400" data-icon="mdi:alpha-m-box" data-width="28"></span>
+                                <span class="font-semibold text-slate-700 text-sm">Martes</span>
+                            </div>
+                            <span class="text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">5:30 – 8:00 PM</span>
+                        </div>
+                        <div class="flex items-center justify-between p-4 bg-slate-50 rounded-2xl">
+                            <div class="flex items-center gap-3">
+                                <span class="iconify text-brand-400" data-icon="mdi:alpha-m-box" data-width="28"></span>
+                                <span class="font-semibold text-slate-700 text-sm">Miércoles</span>
+                            </div>
+                            <span class="text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">5:30 – 8:00 PM</span>
+                        </div>
+                        <div class="flex items-center justify-between p-4 bg-slate-50 rounded-2xl">
+                            <div class="flex items-center gap-3">
+                                <span class="iconify text-brand-400" data-icon="mdi:alpha-j-box" data-width="28"></span>
+                                <span class="font-semibold text-slate-700 text-sm">Jueves</span>
+                            </div>
+                            <span class="text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-full">5:30 – 8:00 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="flex items-center gap-2 text-sm text-slate-400">
+                        <span class="iconify" data-icon="mdi:information-outline" data-width="16"></span>
+                        <span>Viernes, sábado y domingo: descanso</span>
+                    </div>
+                </div>
+
+                <!-- Location Card -->
+                <div class="reveal reveal-delay-1 card-hover bg-white border border-slate-100 rounded-3xl p-8 md:p-10">
+                    <div class="flex items-center gap-3 mb-8">
+                        <div class="w-12 h-12 bg-red-50 rounded-2xl flex items-center justify-center">
+                            <span class="iconify text-red-500" data-icon="mdi:map-marker" data-width="24"></span>
+                        </div>
+                        <h3 class="text-xl font-bold text-brand-900">Ubicación</h3>
+                    </div>
+
+                    <!-- Map Embed -->
+                    <div class="rounded-2xl overflow-hidden mb-6 border border-slate-100 shadow-sm">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.6!2d-100.25!3d25.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sCanchas+Offside+Guadalupe+NL!5e0!3m2!1ses!2smx!4v1700000000000"
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                            class="w-full">
+                        </iframe>
+                    </div>
+
+                    <div class="space-y-4">
+                        <div class="flex items-start gap-3">
+                            <span class="iconify text-brand-400 mt-0.5 flex-shrink-0" data-icon="mdi:map-marker-outline" data-width="20"></span>
+                            <div>
+                                <p class="text-sm font-semibold text-brand-900">Canchas Offside</p>
+                                <p class="text-sm text-slate-500">Gral. Plutarco Elías Calles 2350, Los Lerma, 67169 Guadalupe, N.L.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <span class="iconify text-brand-400 flex-shrink-0" data-icon="mdi:phone-outline" data-width="20"></span>
+                            <a href="tel:+528120255823" class="text-sm font-semibold text-brand-600 hover:text-brand-700 transition-colors">81 2025 5823</a>
+                        </div>
+                        <a href="https://maps.google.com/?q=Canchas+Offside+Plutarco+Elias+Calles+2350+Guadalupe+NL" target="_blank" class="btn-primary inline-flex items-center gap-2 text-white font-semibold px-6 py-3 rounded-full text-sm mt-2">
+                            <span>Ver en Google Maps</span>
+                            <span class="iconify" data-icon="mdi:open-in-new" data-width="16"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FINAL CTA ========== -->
+    <section class="py-20 md:py-28 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-brand-800 via-brand-700 to-brand-900"></div>
+        <div class="blob blob-1 w-[400px] h-[400px] bg-blue-400/10 top-0 right-0" style="position:absolute;"></div>
+        <div class="blob blob-2 w-[300px] h-[300px] bg-amber-400/10 bottom-0 left-0" style="position:absolute;"></div>
+
+        <div class="relative max-w-3xl mx-auto px-5 sm:px-6 lg:px-8 text-center">
+            <div class="reveal">
+                <img src="https://z-cdn-media.chatglm.cn/files/02918f52-fc33-4af6-9de9-092685a5447b.png?auth_key=1886068258-d6ffa0a7128b4f9f98aa0332bd56c5cb-0-958c2e67bb687ad8df9d6b6699e36578" alt="Rayados Faisanes" class="h-20 w-auto mx-auto mb-8 opacity-90">
+            </div>
+            <h2 class="reveal reveal-delay-1 text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-5">
+                ¿Listo para que tu hijo(a) sea parte de <span class="text-amber-400">Rayados Faisanes</span>?
+            </h2>
+            <p class="reveal reveal-delay-2 text-blue-200 text-lg font-light leading-relaxed mb-10 max-w-xl mx-auto">
+                Inscríbete sin costo. La primera clase de prueba es totalmente gratis. ¡No pierdas la oportunidad!
+            </p>
+            <div class="reveal reveal-delay-3 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="https://wa.me/528120255823?text=Hola%2C%20quiero%20inscribir%20a%20mi%20hijo(a)%20en%20Rayados%20Faisanes%20%F0%9F%91%8B" target="_blank" class="btn-gold text-white font-bold px-10 py-4 rounded-full text-base w-full sm:w-auto shadow-xl">
+                    <span class="flex items-center justify-center gap-2">
+                        <span class="iconify" data-icon="mdi:whatsapp" data-width="22"></span>
+                        Inscríbete Ahora por WhatsApp
+                    </span>
+                </a>
+                <a href="tel:+528120255823" class="inline-flex items-center gap-2 text-white/80 hover:text-white font-semibold px-8 py-4 rounded-full border border-white/20 hover:border-white/40 transition-all duration-300 text-sm w-full sm:w-auto justify-center">
+                    <span class="iconify" data-icon="mdi:phone" data-width="18"></span>
+                    Llamar: 81 2025 5823
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="bg-brand-950 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                <!-- Brand -->
+                <div class="lg:col-span-2">
+                    <div class="flex items-center gap-3 mb-5">
+                        <img src="https://z-cdn-media.chatglm.cn/files/02918f52-fc33-4af6-9de9-092685a5447b.png?auth_key=1886068258-d6ffa0a7128b4f9f98aa0332bd56c5cb-0-958c2e67bb687ad8df9d6b6699e36578" alt="Rayados Faisanes" class="h-12 w-auto">
+                        <div>
+                            <p class="text-sm font-bold text-white leading-tight">RAYADOS FAISANES</p>
+                            <p class="text-[10px] text-blue-400 tracking-widest uppercase font-medium">Escuela de Fútbol</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-slate-400 leading-relaxed max-w-sm mb-6">
+                        Formando campeones con disciplina, técnica y pasión desde Guadalupe, Nuevo León. Niñas y niños categorías 2010–2022.
+                    </p>
+                    <!-- Social Icons -->
+                    <div class="flex items-center gap-3">
+                        <a href="#" class="social-icon w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 text-slate-400 hover:bg-blue-600 hover:text-white border border-white/5" aria-label="Facebook">
+                            <span class="iconify" data-icon="mdi:facebook" data-width="20"></span>
+                        </a>
+                        <a href="#" class="social-icon w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 text-slate-400 hover:bg-gradient-to-tr hover:from-yellow-500 hover:via-pink-500 hover:to-purple-600 hover:text-white border border-white/5" aria-label="Instagram">
+                            <span class="iconify" data-icon="mdi:instagram" data-width="20"></span>
+                        </a>
+                        <a href="#" class="social-icon w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 text-slate-400 hover:bg-black hover:text-white border border-white/5" aria-label="TikTok">
+                            <span class="iconify" data-icon="ic:baseline-tiktok" data-width="20"></span>
+                        </a>
+                        <a href="https://wa.me/528120255823" target="_blank" class="social-icon w-10 h-10 flex items-center justify-center rounded-xl bg-white/5 text-slate-400 hover:bg-green-500 hover:text-white border border-white/5" aria-label="WhatsApp">
+                            <span class="iconify" data-icon="mdi:whatsapp" data-width="20"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-5 uppercase tracking-wider">Navegación</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#nosotros" class="text-sm text-slate-400 hover:text-white transition-colors duration-200">Nosotros</a></li>
+                        <li><a href="#categorias" class="text-sm text-slate-400 hover:text-white transition-colors duration-200">Categorías</a></li>
+                        <li><a href="#programa" class="text-sm text-slate-400 hover:text-white transition-colors duration-200">Programa</a></li>
+                        <li><a href="#femenil" class="text-sm text-slate-400 hover:text-white transition-colors duration-200">Femenil</a></li>
+                        <li><a href="#contacto" class="text-sm text-slate-400 hover:text-white transition-colors duration-200">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-sm font-bold text-white mb-5 uppercase tracking-wider">Contacto</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <span class="iconify text-brand-400 mt-0.5 flex-shrink-0" data-icon="mdi:map-marker" data-width="18"></span>
+                            <span class="text-sm text-slate-400">Gral. Plutarco Elías Calles 2350, Los Lerma, 67169 Guadalupe, N.L.</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="iconify text-brand-400 flex-shrink-0" data-icon="mdi:phone" data-width="18"></span>
+                            <a href="tel:+528120255823" class="text-sm text-slate-400 hover:text-white transition-colors">81 2025 5823</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="iconify text-brand-400 flex-shrink-0" data-icon="mdi:clock-outline" data-width="18"></span>
+                            <span class="text-sm text-slate-400">Lun – Jue: 5:30 – 8:00 PM</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="iconify text-brand-400 flex-shrink-0" data-icon="mdi:account" data-width="18"></span>
+                            <span class="text-sm text-slate-400">Director: Romario Guerrero</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-xs text-slate-500">© 2025 Rayados Faisanes. Todos los derechos reservados.</p>
+                <p class="text-xs text-slate-600">Escuela de Fútbol · Guadalupe, Nuevo León, México</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== WHATSAPP FLOATING BUTTON ========== -->
+    <a href="https://wa.me/528120255823?text=Hola%2C%20quiero%20información%20sobre%20Rayados%20Faisanes%20%F0%9F%91%8B" target="_blank" class="whatsapp-float fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-colors duration-200 hover:scale-110" aria-label="Contactar por WhatsApp">
+        <span class="iconify" data-icon="mdi:whatsapp" data-width="30"></span>
+    </a>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script>
+        // ===== Mobile Menu =====
+        const menuBtn = document.getElementById('menuBtn');
+        const closeMenuBtn = document.getElementById('closeMenuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function openMenu() {
+            mobileMenu.classList.add('open');
+            menuOverlay.classList.remove('hidden');
+            requestAnimationFrame(() => { menuOverlay.style.opacity = '1'; });
+            document.body.style.overflow = 'hidden';
+        }
+        function closeMenu() {
+            mobileMenu.classList.remove('open');
+            menuOverlay.style.opacity = '0';
+            setTimeout(() => { menuOverlay.classList.add('hidden'); }, 300);
+            document.body.style.overflow = '';
+        }
+
+        menuBtn.addEventListener('click', openMenu);
+        closeMenuBtn.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+        mobileLinks.forEach(link => link.addEventListener('click', closeMenu));
+
+        // ===== Navbar scroll effect =====
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // ===== Scroll Reveal (Intersection Observer) =====
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // ===== Counter Animation =====
+        const counters = document.querySelectorAll('.counter');
+        let countersAnimated = false;
+
+        const counterObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting && !countersAnimated) {
+                    countersAnimated = true;
+                    counters.forEach(counter => {
+                        const target = parseInt(counter.getAttribute('data-target'));
+                        const duration = 2000;
+                        const start = performance.now();
+
+                        function updateCounter(now) {
+                            const elapsed = now - start;
+                            const progress = Math.min(elapsed / duration, 1);
+                            // Ease out cubic
+                            const eased = 1 - Math.pow(1 - progress, 3);
+                            const current = Math.round(eased * target);
+                            counter.textContent = current === 100 ? current + '%' : current + '+';
+                            if (progress < 1) {
+                                requestAnimationFrame(updateCounter);
+                            }
+                        }
+                        requestAnimationFrame(updateCounter);
+                    });
+                }
+            });
+        }, { threshold: 0.5 });
+
+        counters.forEach(counter => counterObserver.observe(counter));
+
+        // ===== Smooth scroll for anchor links =====
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    const offset = 80;
+                    const position = target.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top: position, behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
